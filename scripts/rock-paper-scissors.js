@@ -73,8 +73,8 @@ function playGame(playerMove){
    
      updateScoreElement();
      document.querySelector('.js-moves').innerHTML = `You
-      <img src="	https://supersimple.dev/projects/rock-paper-scissors/images/${playerMove}-emoji.png" class="move-icon">
-      <img src="https://supersimple.dev/projects/rock-paper-scissors/images/${computerMove}-emoji.png" class="move-icon"> Computer`
+      <img src="${playerMove}-emoji.png" class="move-icon">
+      <img src="${computerMove}-emoji.png" class="move-icon"> Computer`
 
      document.querySelector('.js-result').innerHTML = result
       
